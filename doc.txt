@@ -9,3 +9,11 @@ git status
 
 git add "file name.txt"
 git add . (add all file as ready for commit staged - included) 
+
+git commit -am "Inital commit"
+
+
+git push -u origin master 
+
+-- create new branch 
+git checkout -b my-branch-name
