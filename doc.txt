@@ -17,3 +17,13 @@ git push -u origin master
 
 -- create new branch 
 git checkout -b my-branch-name
+
+
+git ls-remote - list all branches that are pushed to the server 
+
+git fetch origin master -- gets the latest master version
+
+
+git push origin my-first-branch - to push a branch to the server 
+
+If I am in Branch X and pull Branch Y. Y will be merged with X.
